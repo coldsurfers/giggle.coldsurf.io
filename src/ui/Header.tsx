@@ -4,7 +4,9 @@ import styles from './header.module.css'
 const Header = () => {
   return (
     <div className={styles.header}>
-      <p className={styles.title}>Giggle</p>
+      <Link href="/" className={styles.title}>
+        Giggle
+      </Link>
       <ul className={styles.menus}>
         <li>
           <Link href="/about">{"What's Giggle?"}</Link>
