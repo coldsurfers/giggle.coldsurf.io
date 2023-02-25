@@ -87,17 +87,14 @@ body {
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background-color: #333436;
+  font-family: Favorit, Helvetica, Arial, sans-serif;
 }
 
 a {
   color: inherit;
   text-decoration: none;
+  font: inherit;
 }
 
 @media (prefers-color-scheme: dark) {
