@@ -1,3 +1,5 @@
+import AboutBox from '@/ui/AboutBox'
+
 export default function AboutPage() {
-  return null
+  return <AboutBox />
 }

@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import { memo } from 'react'
 import styles from './header.module.css'
 
 const Header = () => {
@@ -21,4 +22,4 @@ const Header = () => {
   )
 }
 
-export default Header
+export default memo(Header)
